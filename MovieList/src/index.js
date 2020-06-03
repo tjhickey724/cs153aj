@@ -5,6 +5,7 @@ import CardList from './containers/CardList';
 import MovieList from './containers/MovieList';
 
 import movieData from '../assets/data.js'
+import classData from '../assets/classes.js'
 
 
 const App = () => {
@@ -16,9 +17,11 @@ const App = () => {
     </div>
 
     <MovieList data={movieData} title="List of Movies by Earnings" />
+
     <pre>
-    {JSON.stringify(movieData,null,4)}
+    {JSON.stringify(classData,null,4)}
     </pre>
+
     <div className='container-fluid'>
       <nav className='navbar sticky-top navbar-light bg-dark'>
         <h1 className='navbar-brand text-light'>MovieList</h1>
