@@ -11,7 +11,7 @@ const App = () => {
   return (
    <>
     <div className="jumbotron">
-    <h1>Top Grossing Movies</h1>
+    <h1>Summer Classes</h1>
     <p>This is a React demo showing how to create HTML from data</p>
     </div>
 
